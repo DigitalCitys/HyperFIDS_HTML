@@ -14,6 +14,7 @@ Arrivals
 HTML, CSS interface
 Hardcoded information in HTML
 
+Start date: 5/14/2026
 Estimated finish date: 5/17/2026
 Finish date: 5/14/2026
 
@@ -25,4 +26,6 @@ If flight cancelled, make entire row red (not hardcoded)
 
 If flight delayed, make "DELAYED" status yellow (not hardcoded)
 
+Start date: 5/15/2026
 Expected finish date: 5/17/2026
+Actual finish date: 5/15/2026
