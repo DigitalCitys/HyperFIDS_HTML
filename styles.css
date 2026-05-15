@@ -53,11 +53,19 @@ tr:nth-child(even)
     background-color: #494c66;
 }
 
+th
+{
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
 td
 {
     width:30%;
     padding-left: 5em;
-    padding-right: 5em
+    padding-right: 5em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
 }
 
 #colheader
