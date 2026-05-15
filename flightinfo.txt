@@ -29,3 +29,11 @@ If flight delayed, make "DELAYED" status yellow (not hardcoded)
 Start date: 5/15/2026
 Expected finish date: 5/17/2026
 Actual finish date: 5/15/2026
+
+DELIVERABLE 3 - Visual Improvements
+
+Show greeting (welcome to airport), current time, date, and a landing plane icon in the header
+
+DELIVERABLE ? - Database
+
+Create SQL database containing the flight information, import them into HTML
