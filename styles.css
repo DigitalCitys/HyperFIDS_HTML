@@ -1,11 +1,31 @@
 #headerofinterface
 {
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding-left: 1em;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+#bottomOfInterface
+{
+    padding-left: 1em;
+}
+
+#arrivals
+{
+    display: flex;
 }
 
 h1
 {
     color: gold;
+}
+
+#landingPlaneIcon
+{
+    width:5em;
+    margin-right: 2em;
 }
 
 body
@@ -45,6 +65,27 @@ td
     background-color: gold;
     color: black;
     font-weight: bold;
+}
+
+#date
+{
+    margin-top: 0;
+}
+
+#dateAndTime
+{
+    text-align: center;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#time
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xxx-large;
 }
 
 /*.status*/
