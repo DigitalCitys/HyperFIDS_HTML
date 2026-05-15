@@ -12,9 +12,20 @@
     padding-left: 1em;
 }
 
+#arrivals
+{
+    display: flex;
+}
+
 h1
 {
     color: gold;
+}
+
+#landingPlaneIcon
+{
+    width:5em;
+    margin-right: 2em;
 }
 
 body
