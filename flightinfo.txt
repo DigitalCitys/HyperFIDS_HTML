@@ -34,6 +34,10 @@ DELIVERABLE 3 - Visual Improvements
 
 Show greeting (welcome to airport), current time, date, and a landing plane icon in the header
 
+Start date: 5/15/2026
+Expected finish date: 5/17/2026
+Actual finish date: 5/15/2026
+
 DELIVERABLE ? - Database
 
 Create SQL database containing the flight information, import them into HTML
