@@ -18,20 +18,49 @@
             <th>Scheduled Arrival</th>
             <th>Status</th>
         </tr>
-        <tr>
+        <tr class="flight">
             <td>Atlas Global</td> <!--Airline-->
             <td>KK 1335</td> <!--Flight-->
             <td>Beirut</td> <!--Arriving From-->
             <td>08:40</td> <!--Scheduled Time-->
-            <td>LANDED</td> <!--Status-->
+            <td class="status">LANDED</td> <!--Status-->
+<!--            <script src="index.js">-->
+<!--            </script>-->
+<!--            <script>-->
+<!--                let status = document.getElementsByClassName('status')[0].textContent;-->
+<!--                changeRowStyleStatus(status);-->
+<!--            </script>-->
         </tr>
-        <tr>
+        <tr class="flight">
             <td>Turkish Airlines</td> <!--Airline-->
             <td>TK 879</td> <!--Flight-->
             <td>Tehran</td> <!--Arriving From-->
             <td>08:40</td> <!--Scheduled Time-->
-            <td>LANDED</td> <!--Status-->
+            <td class="status">LANDED</td> <!--Status-->
         </tr>
+        <tr class="flight">
+            <td>American Eagle</td> <!--Airline-->
+            <td>AE 123</td> <!--Flight-->
+            <td>Puerto Rico</td> <!--Arriving From-->
+            <td>13:15</td> <!--Scheduled Time-->
+            <td class="status">DELAYED</td> <!--Status-->
+        </tr>
+        <tr class="flight">
+            <td>Air Canada</td> <!--Airline-->
+            <td>224</td> <!--Flight-->
+            <td>Chicago</td> <!--Arriving From-->
+            <td>12:00</td> <!--Scheduled Time-->
+            <td class="status">CANCELLED</td> <!--Status-->
+        </tr>
+        <script src="index.js">
+        </script>
+        <script>
+            for(var i = 0; i < 4; i++)
+            {
+                let status = document.getElementsByClassName('status')[i].textContent;
+                changeRowStyleStatus(status, i);
+            }
+        </script>
     </table>
 </section>
 </body>

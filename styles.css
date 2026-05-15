@@ -47,3 +47,9 @@ td
     font-weight: bold;
 }
 
+/*.status*/
+/*{*/
+/*    !*We want that if it says "ARRIVED", it's automatically changed to be green. If it says "CANCELLED", the entire row is red. If it says "DELAYED", the text "DELAYED" is yellow.*!*/
+/*    !*color:lawngreen;*!*/
+/*}*/
+
