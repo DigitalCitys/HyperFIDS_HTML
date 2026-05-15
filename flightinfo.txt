@@ -1,0 +1,18 @@
+HyperFIDS By Giulia Spier
+
+A flight information display system like in airports
+
+DELIVERABLE 1
+
+Arrivals
+    Airline (atlasglobal, Turkish Airlines, etc.)
+    Flight ID (e.g. KK 1335, TK 805, LI908, etc.)
+    Arriving From (Origin city)
+    Scheduled Time of Arrival
+    Remark/Status (Arrived at time, Delayed, On Time, etc.)
+
+HTML, CSS interface
+Hardcoded information in HTML
+
+Estimated finish date: 5/17/2026
+Finish date: 5/14/2026
